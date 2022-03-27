@@ -1,8 +1,0 @@
-public class HelloWorld {
-    public static void main(String[] args) {
-
-        int personenkennzahl = 52105927;
-
-        System.out.println("Hallo Welt! Ich bin " + personenkennzahl + " und freue mich auf die kommenden Übungsbeispiele.");
-    }
-}
