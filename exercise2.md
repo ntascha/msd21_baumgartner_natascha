@@ -9,29 +9,29 @@ You need git commit -m after you used git add, then you can see all changes from
 1. Open Git Bash.
 
 2. Go to your root.
-    ![Alt-Text](Media\1-Path.png)
+    ![Alt-Text](1-Path.png)
 
 3. Use git add for the markdown documents.
-    ![Alt-Text](Media\2-GitAdd.png)
+    ![Alt-Text](2-GitAdd.png)
 
 4. Use git commit -m "........" for the markdown documents.
-    ![Alt-Text](Media\3-GitCommit.png)
+    ![Alt-Text](3-GitCommit.png)
 
 5. Create the document .gitignore.
-    ![Alt-Text](Media\4-Touch.png)
+    ![Alt-Text](4-Touch.png)
 
 6. Ask for the git status.
-    ![Alt-Text](Media\5-GitStatus.png)
+    ![Alt-Text](5-GitStatus.png)
 
 7. Write in the .gitignore document, what you want to ignore. In my case I want to ignore html and pdf documents.
-    ![Alt-Text](Media\6-GitIgnoreHtmlPdf.png)
+    ![Alt-Text](6-GitIgnoreHtmlPdf.png)
 
 8. Ask again about the git status and you can see, that the html-document and the pdf-document is not there anymore.
-    ![Alt-Text](Media\7-GitStatusIgnore.png)
+    ![Alt-Text](7-GitStatusIgnore.png)
    
 9.  Use git add to add the .gitignore document
-    ![Alt-Text](Media\8-GitAddIgnore.png)
+    ![Alt-Text](8-GitAddIgnore.png)
 
 10. Use git commit -m "........" to finish the process.
-    ![Alt-Text](Media\9-GitCommitIgnore.png)
+    ![Alt-Text](9-GitCommitIgnore.png)
 
