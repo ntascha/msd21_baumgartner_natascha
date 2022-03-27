@@ -37,3 +37,4 @@ Konfigurationsmanagement SS2021
 
 ###Exercises
 [Exercise1](exercise1.md)
+[Exercise2](exercise2.md)
