@@ -35,7 +35,7 @@ Please make sure to update tests as appropriate.
 ## License
 Konfigurationsmanagement SS2021
 
-###Exercises
+### Exercises
 
 [Exercise1](exercise1.md)
 
