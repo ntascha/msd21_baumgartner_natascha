@@ -34,16 +34,16 @@
 
 `mvn -v`
 
-8. Create a new project in IntelliJ with Maven
+8. Now you can create a new project in IntelliJ with Maven
 
 9. Use your Repository-"Location"
 
-10. Create a new Java-Class Calculator and Main
+10. Create a new Java-Class as example: Calculator and Main
 
 11. After your first execution there is a new output folder **target**
     The target folder is when a project is build or packaged, all the content of the sources, resources and web files will be put inside of it, it will be used for construct the artifacts and for run tests.
 ![img.png](img.png)
 12. The output to console from the main-class is following:
 ![img_1.png](img_1.png)
-13. 
+13. AAAAND you are finished :) 
 
