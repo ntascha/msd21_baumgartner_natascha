@@ -23,15 +23,14 @@ public class Calculator {
     }
 
     public double faculty(int number) {
-//    if (number < 1) {
-//        return 0;
-//    }
-//    int temp = 1;
-//    for (int i = 2; i <= number; i++) {
-//        temp = temp * i;
-//    }
-//    return temp;
+    if (number < 1) {
         return 0;
+    }
+    int temp = 1;
+    for (int i = 2; i <= number; i++) {
+        temp = temp * i;
+    }
+    return temp;
     }
 }
 
