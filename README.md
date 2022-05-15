@@ -43,6 +43,8 @@ Konfigurationsmanagement SS2021
 
 [Exercise3](exercise3.md)
 
+[Exercise4](exercise4.md)
+
 [Github-Profil](https://github.com/ntascha)
 
 [FH Joanneum](https://www.fh-joanneum.at)

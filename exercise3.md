@@ -10,10 +10,10 @@
 3. After download JAVA set the environment variable for:
 
 * JAVA_HOME (Path without ...\bin)
-![Alt-Text](2-Umgebungsvariable_JAVA_HOME.png)
+![Alt-Text](resources/images/3-02Umgebungsvariable_JAVA_HOME.png)
 
 * JAVA Path (Path with ...\bin)
-![Alt-Text](3-Umgebungsvariable_PATH.png)
+![Alt-Text](resources/images/3-03Umgebungsvariable_PATH.png)
 
 4. Check again in cmd if your installation was successful
 
@@ -26,9 +26,9 @@
 
 6. After download Maven set the environment variable for:
 * MAVEN_HOME (Path without ...\bin)
-  ![Alt-Text](4-Umgebungsvariable_MAVEN_HOME.png)
+  ![Alt-Text](resources/images/3-04Umgebungsvariable_MAVEN_HOME.png)
 * MAVEN Path (Path with ...\bin)
-  ![Alt-Text](5-Umgebungsvariable_MAVEN_PATH.png)
+  ![Alt-Text](resources/images/3-05Umgebungsvariable_MAVEN_PATH.png)
 
 7. Check in cmd if your installation was successful
 
@@ -42,8 +42,8 @@
 
 11. After your first execution there is a new output folder **target**
     The target folder is when a project is build or packaged, all the content of the sources, resources and web files will be put inside of it, it will be used for construct the artifacts and for run tests.
-![img.png](img.png)
+![img.png](resources/images/3-06Target.png)
 12. The output to console from the main-class is following:
-![img_1.png](img_1.png)
+![img_1.png](resources/images/3-07Result.png)
 13. AAAAND you are finished :) 
 
