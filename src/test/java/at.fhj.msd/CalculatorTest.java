@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 public class CalculatorTest {
 
     private Calculator calc;
@@ -23,10 +25,12 @@ public class CalculatorTest {
         Assertions.assertEquals(5+3, calc.add(5, 3));
     }
 
+
     @Test
     public void expectedMinus(){
         Assertions.assertEquals(2, calc.minus(5, 3));
     }
+
     @Test
     public void actualMinus(){
         Assertions.assertEquals(5-3, calc.minus(5, 3));
@@ -64,6 +68,11 @@ public class CalculatorTest {
     @Test
     public void expectedFaculty3(){
         Assertions.assertEquals(0, calc.faculty(-5));
+    }
+
+    @Test
+    public void testDivWithZeroComplicated() {
+        assertThrows(ArithmeticException.class,()-> Calculator.divide(5,0));
     }
 
 
